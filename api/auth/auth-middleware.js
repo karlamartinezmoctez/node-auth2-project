@@ -2,6 +2,7 @@ const { JWT_SECRET } = require("../secrets"); // use this secret!
 
 const restricted = (req, res, next) => {
   /*
+    comment
     If the user does not provide a token in the Authorization header:
     status 401
     {
